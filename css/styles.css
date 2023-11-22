@@ -331,6 +331,9 @@ select:focus{
 }
 .contactus{
 	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .contact h1, h2, p, .other{
 	text-align: center;
