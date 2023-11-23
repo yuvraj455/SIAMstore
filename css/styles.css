@@ -111,17 +111,20 @@ p{
 	text-align: center;
 	color: #444;
 }
-.about{
-	background: radial-gradient(black,grey,white,gold);
-}
+ .about{
+	background: radial-gradient(black,grey,white,pink,gold);
+} 
+
 .main-content {
     padding: 40px 0;
 	margin: 0;
     padding: 0;
     line-height: 1.6;
-	background:radial-gradient(gold,pink,grey,white,black);
     color: #333;
-
+	background-image: url("../images/about-background.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
 }
 
 .about-us h2 {
